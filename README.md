@@ -64,4 +64,4 @@ cd apps/api && go run ./cmd/server/...
 
 ## Version
 
-**V1.0** — Launch Scope · 2025 · Confidential & Internal
+**V1.0** — Launch Scope · 2026 · Confidential & Internal
