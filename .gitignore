@@ -1,0 +1,138 @@
+# ====================================================================
+# EvOS — Event Operating System Master Gitignore
+# Highly-tuned for Next.js, Go (API), Supabase, and Monorepos.
+# ====================================================================
+
+# --------------------------------------------------------------------
+# 1. System and OS Files
+# --------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --------------------------------------------------------------------
+# 2. IDEs, Editors, and Tooling
+# --------------------------------------------------------------------
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+*.bak
+*.tmp
+*.temp
+.project
+.classpath
+.settings/
+.elstcache
+.eslintcache
+
+# --------------------------------------------------------------------
+# 3. Node.js & Monorepo / Dependency Directories
+# --------------------------------------------------------------------
+node_modules/
+/jspm_packages/
+.pnp/
+.pnp.js
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Build & Turbo Monorepo caches
+.turbo/
+.cache/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --------------------------------------------------------------------
+# 4. Next.js & Frontend Specifics
+# --------------------------------------------------------------------
+.next/
+out/
+.vercel/
+.netlify/
+
+# --------------------------------------------------------------------
+# 5. Go & Backend Specifics
+# --------------------------------------------------------------------
+# Compiled binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+
+# Go binary outputs (default names)
+api
+server
+server.exe
+/apps/api/server
+/apps/api/server.exe
+/apps/api/api
+/apps/api/api.exe
+
+# Go workspace state
+.go/
+vendor/
+
+# --------------------------------------------------------------------
+# 6. Supabase & Database Local State
+# --------------------------------------------------------------------
+.supabase/
+.supabase/db/
+*.db
+*.sqlite
+*.sql.gz
+
+# --------------------------------------------------------------------
+# 7. Local Environment Variables (CRITICAL: Never commit secrets)
+# --------------------------------------------------------------------
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local.db
+! .env.example
+
+# --------------------------------------------------------------------
+# 8. Unneeded / Temporary / Large Documents & Local Dumps
+# --------------------------------------------------------------------
+# Office & Doc formats (unless explicitly tracked in docs/ or assets/)
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+
+# Archive formats
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# Local extraction scripts & scrap files from PRD analysis
+extracted_prd.txt
+prd_content.txt
+schema_details.txt

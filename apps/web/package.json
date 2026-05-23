@@ -1,0 +1,41 @@
+{
+  "name": "@evos/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "@supabase/supabase-js": "^2.45.0",
+    "@supabase/ssr": "^0.5.0",
+    "zustand": "^4.5.4",
+    "swr": "^2.2.5",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.400.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0",
+    "react-hook-form": "^7.52.1",
+    "zod": "^3.23.8",
+    "@hookform/resolvers": "^3.9.0",
+    "recharts": "^2.12.7",
+    "react-beautiful-dnd": "^13.1.1",
+    "socket.io-client": "^4.7.5",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
